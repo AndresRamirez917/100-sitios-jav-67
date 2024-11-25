@@ -1,0 +1,31 @@
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 2rem 0;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar ul li {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#about .about-text {
+  display: block;
+}
+#about .about-text p {
+  text-align: justify;
+}
+#about .about-text img {
+  width: 100%;
+}
+
+#services .services-row {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */

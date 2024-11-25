@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background: rgba(56, 56, 87, 0.882);
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-1 {
+  background: rgb(0, 213, 255);
+}
+
+form {
+  color: #fff;
+}
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 4px;
+}
+form .button-1 {
+  width: 100%;
+}
+
+.main-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box-1 {
+  background: rgba(88, 64, 195, 0.594);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
+#mainheader .navbar .logo {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 2rem;
+}
+#mainheader .navbar ul li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#showcase {
+  background: url("/images/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  padding-bottom: 20rem;
+}
+#showcase .showcase-text {
+  width: 40%;
+  text-align: left;
+}
+#showcase .showcase-text h1 {
+  margin: 1.5rem 0;
+}
+#showcase .showcase-text p {
+  margin-bottom: 2rem;
+}
+#showcase .showcase-text .button-1 {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#about .about-text {
+  display: flex;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+#about .about-text p span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 50px;
+}
+#about .about-text img {
+  width: 50%;
+}
+
+#services {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+#services p {
+  margin-bottom: 2rem;
+  line-height: 30px;
+}
+#services .services-row img {
+  width: 50px;
+  margin: 3rem 0;
+}
+#services .services-row p {
+  margin-top: 2rem;
+  line-height: 30px;
+}
+
+#contact {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  line-height: 30px;
+}
+#contact form {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact form .flex-box-1 {
+  flex: 1;
+}
+#contact form button {
+  width: 100%;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
