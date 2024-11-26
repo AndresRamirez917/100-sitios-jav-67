@@ -4,3 +4,7 @@ async function getData(){
     console.log(character)
 }
 getData()
+
+const btn_validar = document.getElementById('btn-validar').onclick = (e) => {
+e.preventDefault()
+}
