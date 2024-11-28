@@ -182,13 +182,17 @@ form .button-1 {
   margin-bottom: 2rem;
   line-height: 30px;
 }
-#services .services-row img {
-  width: 50px;
+#services .services-row .flex-box {
+  width: 33%;
+}
+#services .services-row .flex-box img {
+  width: 150px;
   margin: 3rem 0;
 }
-#services .services-row p {
+#services .services-row .flex-box p {
   margin-top: 2rem;
   line-height: 30px;
+  text-align: justify;
 }
 
 #contact {

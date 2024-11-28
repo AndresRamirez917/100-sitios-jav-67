@@ -13,8 +13,8 @@ const randomDrinks = character.drinks.sort(() => 0.5 - Math.random()).slice(0, 4
              <div class="flex-box box-1">
                         <img src="${element.strDrinkThumb}" alt="">
                         <div class="flex-box-text">
-                            <h3>Emergency Hep</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi a, interdum rhoncus, nisl, nunc. Ut condimentum aliquet vehicula nunc, egestas diam.</p>
+                            <h3>${element.strDrink}</h3>
+                            <p>${element.strInstructions}</p>
                         </div>
                     </div>
             

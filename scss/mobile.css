@@ -28,4 +28,7 @@
 
 #services .services-row {
   display: block;
+}
+#services .services-row .flex-box {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

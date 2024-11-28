@@ -43,5 +43,8 @@
 #services {
     .services-row {
         display: block;
+        .flex-box {
+            width: 100%;
+        }
     }
 }

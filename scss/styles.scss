@@ -189,13 +189,17 @@ form {
         line-height: 30px;
      }
      .services-row {
-        img {
-            width: 50px;
-            margin: 3rem 0;
-        }
-        p {
-            margin-top: 2rem ;
-            line-height: 30px;
+         .flex-box {
+            width: 33%;
+            img {
+                width: 150px;
+                margin: 3rem 0;
+            }
+            p {
+                margin-top: 2rem ;
+                line-height: 30px;
+                text-align: justify;
+            }
         }
      }
 }
