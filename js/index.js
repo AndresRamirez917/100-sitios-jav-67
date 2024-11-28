@@ -1,10 +1,13 @@
 async function getData(){
     const result = await fetch('https://thecocktaildb.com/api/json/v1/1/search.php?s=margarita');
     const character = await result.json();
-    //const jsonArr = character.drinks.map(elemento => Object.entries(elemento));
-    console.log(jsonArr);
-    console.log(character)
-    character.drinks.forEach(element => {
+        console.log(character)
+
+// Seleccionar 4 imágenes aleatorias
+// Otra forma mas elegante
+const randomDrinks = character.drinks.sort(() => 0.5 - Math.random()).slice(0, 4);
+
+    randomDrinks.forEach(element => {
         const img = document.createRange().createContextualFragment(`
             
             <h2>lok</h2>
