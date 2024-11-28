@@ -1,7 +1,8 @@
 async function getData(){
     const result = await fetch('https://thecocktaildb.com/api/json/v1/1/search.php?s=margarita');
     const character = await result.json();
-    console.log(character)
+    //const jsonArr = character.drinks.map(elemento => Object.entries(elemento));
+    console.log(jsonArr);
     console.log(character)
     character.drinks.forEach(element => {
         const img = document.createRange().createContextualFragment(`
