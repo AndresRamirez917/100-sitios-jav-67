@@ -27,7 +27,12 @@ const randomDrinks = character.drinks.sort(() => 0.5 - Math.random()).slice(0, 4
 getData()
 
 const btn_validar = document.getElementById('btn-validar').onclick = (e) => {
-e.preventDefault()
+e.preventDefault();
+const nombre = document.getElementById('nombre');
+const email = document.getElementById('email');
+const fecha = document.getElementById('fecha');
+const hora = document.getElementById('hora');
+const mensaje = document.getElementById('mensaje');
 }
 
 //element.strDrinkThumb
