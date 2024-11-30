@@ -188,6 +188,7 @@ form .button-1 {
 #services .services-row .flex-box img {
   width: 150px;
   margin: 3rem 0;
+  border-radius: 5px;
 }
 #services .services-row .flex-box p {
   margin-top: 2rem;
